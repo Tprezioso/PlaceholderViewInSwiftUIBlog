@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4CD18E252D22F4008B179E /* ComplexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CD18D252D22F4008B179E /* ComplexView.swift */; };
+		9F4CD191252D23D5008B179E /* husky.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4CD190252D23D5008B179E /* husky.png */; };
 		9FB41B7B252B4F850067B0DD /* PlaceholderViewInSwiftUIBlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB41B7A252B4F850067B0DD /* PlaceholderViewInSwiftUIBlogApp.swift */; };
 		9FB41B7D252B4F850067B0DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB41B7C252B4F850067B0DD /* ContentView.swift */; };
 		9FB41B7F252B4F860067B0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB41B7E252B4F860067B0DD /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F4CD18D252D22F4008B179E /* ComplexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexView.swift; sourceTree = "<group>"; };
+		9F4CD190252D23D5008B179E /* husky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = husky.png; sourceTree = "<group>"; };
 		9FB41B77252B4F850067B0DD /* PlaceholderViewInSwiftUIBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceholderViewInSwiftUIBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB41B7A252B4F850067B0DD /* PlaceholderViewInSwiftUIBlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewInSwiftUIBlogApp.swift; sourceTree = "<group>"; };
 		9FB41B7C252B4F850067B0DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +58,9 @@
 			children = (
 				9FB41B7A252B4F850067B0DD /* PlaceholderViewInSwiftUIBlogApp.swift */,
 				9FB41B7C252B4F850067B0DD /* ContentView.swift */,
+				9F4CD18D252D22F4008B179E /* ComplexView.swift */,
 				9FB41B7E252B4F860067B0DD /* Assets.xcassets */,
+				9F4CD190252D23D5008B179E /* husky.png */,
 				9FB41B83252B4F860067B0DD /* Info.plist */,
 				9FB41B80252B4F860067B0DD /* Preview Content */,
 			);
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB41B82252B4F860067B0DD /* Preview Assets.xcassets in Resources */,
+				9F4CD191252D23D5008B179E /* husky.png in Resources */,
 				9FB41B7F252B4F860067B0DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB41B7D252B4F850067B0DD /* ContentView.swift in Sources */,
+				9F4CD18E252D22F4008B179E /* ComplexView.swift in Sources */,
 				9FB41B7B252B4F850067B0DD /* PlaceholderViewInSwiftUIBlogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
